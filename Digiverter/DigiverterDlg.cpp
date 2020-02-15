@@ -349,11 +349,11 @@ void CDigiverterDlg::OnEnChangeHex()
 
     GetDlgItem(IDC_HEX)->GetWindowText(str);
     BYTE nLenth = GetDlgItem(IDC_HEX)->GetWindowTextLength();
-    if (nLenth > ((MAX_BIT_LEN/4) + 2))
-    {
-        str.Delete(nLenth - 1);
-		GetDlgItem(IDC_HEX)->SetWindowText(str);
-    }
+    //if (nLenth > ((MAX_BIT_LEN/4) + 2))
+    //{
+    //    str.Delete(nLenth - 1);
+	//	GetDlgItem(IDC_HEX)->SetWindowText(str);
+    //}
 
     llNumber = _strtoui64(CT2A(str), NULL, 16);
     if (llNumber != g_CurNumber)
