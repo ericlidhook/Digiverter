@@ -11,4 +11,4 @@
 * V1.0 
 初始版本
 
-[Digiverter](https://github.com/ericlidhook/Digiverter/tree/master/Release/V1_0/Digiverter.exe)
+[Digiverter](https://raw.githubusercontent.com/ericlidhook/Digiverter/master/Release/V1_0/Digiverter.exe)
